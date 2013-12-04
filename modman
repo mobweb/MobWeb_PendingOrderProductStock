@@ -1,0 +1,9 @@
+app/code/community/MobWeb/PendingOrderProductStock app/code/community/MobWeb/PendingOrderProductStock
+
+app/design/adminhtml/base/default/template/mobweb_pendingorderproductstock/catalog/product/tab/inventory.phtml app/design/adminhtml/base/default/template/mobweb_pendingorderproductstock/catalog/product/tab/inventory.phtml 
+
+app/etc/modules/MobWeb_PendingOrderProductStock.xml app/etc/modules/MobWeb_PendingOrderProductStock.xml
+
+app/locale/de_DE/MobWeb_PendingOrderProductStock.csv app/locale/de_DE/MobWeb_PendingOrderProductStock.csv
+
+app/locale/de_CH/MobWeb_PendingOrderProductStock.csv app/locale/de_CH/MobWeb_PendingOrderProductStock.csv

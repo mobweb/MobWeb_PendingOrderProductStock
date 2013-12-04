@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MobWeb_PendingOrderProductStock>
+            <version>0.1.0</version>
+        </MobWeb_PendingOrderProductStock>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit_tab_inventory>MobWeb_PendingOrderProductStock_Block_Catalog_Product_Edit_Tab_Inventory</catalog_product_edit_tab_inventory>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        <helpers>
+            <MobWeb_PendingOrderProductStock>
+                <class>MobWeb_PendingOrderProductStock_Helper</class>
+            </MobWeb_PendingOrderProductStock>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <MobWeb_PendingOrderProductStock>
+                    <files>
+                        <default>MobWeb_PendingOrderProductStock.csv</default>
+                    </files>
+                </MobWeb_PendingOrderProductStock>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
