@@ -54,7 +54,7 @@ class MobWeb_PendingOrderProductStock_Block_Catalog_Product_Edit_Tab_Inventory e
         SELECT SUM(order_items.qty_ordered) AS pending_stock
         FROM sales_flat_order_item AS order_items
         INNER JOIN sales_flat_order AS orders ON orders.entity_id = order_items.order_id 
-        WHERE order_items.product_id=%d AND (orders.status = 'pending' OR orders.status = 'processing') ORDER BY orders.increment_id DESC;
+        WHERE order_items.product_id=%d AND (orders.status = 'pending') ORDER BY orders.increment_id DESC;
         ", $product->getId());
         $pending_stock = ($pending_stock = $connection->fetchOne($sql)) ? (int) $pending_stock : '0';
 
